@@ -1,0 +1,10 @@
+-> Reads the input text and tokenizes it while preserving punctuation.
+
+-> Builds a trigram dictionary mapping from 3-word keys to possible following words.
+
+-> Takes a 3-word starting phrase from the user.
+
+-> Generates text word-by-word by choosing next words based on the trigram model.
+
+-> Stops once a sentence-ending punctuation is generated or the max length is reached.
+
